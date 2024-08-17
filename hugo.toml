@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = " "
     url = "/"
     weight = 1
   
