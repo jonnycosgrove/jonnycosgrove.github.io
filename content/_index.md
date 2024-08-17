@@ -9,7 +9,7 @@ I'm an Irish tech entrepreneur on a mission to reshape the future and enjoy life
 ### Now
 🚀 [Launching Cleft](https://www.cleftnotes.com/) on the App Store in Fall 2024 
 
-### Recently 
+### Recently completed
 📢 Authored the [Irish Immersive Tech Strategy](https://www.skillnetireland.ie/insights/irish-immersive-technology-strategy-for-growth), commissioned by Eirmersive and Skillnet Ireland - Ireland can be the Wakanda of VR!
    
 ### Featured in
