@@ -3,9 +3,10 @@ title: " "
 ---
 Hey, I'm Jonny. I'm an Irish entrepreneur on a mission to reshape the future and enjoy life along the way. Welcome to my digital realm.
 
-### 2024
+### Now
 {{< rawhtml >}}<a href="https://www.cleftnotes.com/" class="accent">Launching Cleft</a>{{< /rawhtml >}} on the App Store in September 🚀
 
+### So Far This Year
 Authored the {{< rawhtml >}}<a href="https://www.skillnetireland.ie/insights/irish-immersive-technology-strategy-for-growth">Irish Immersive Tech Strategy</a>{{< /rawhtml >}}, commissioned by Eirmersive and Skillnet Ireland - Ireland can be the Wakanda of VR 🇮🇪 
    
 ### Featured in
@@ -22,6 +23,8 @@ Authored the {{< rawhtml >}}<a href="https://www.skillnetireland.ie/insights/iri
     --text-dark: #e2e8f0;
     --accent-light: #e74c3c;
     --accent-dark: #c0392b;
+    --threads-twitter-light: #000000;
+    --threads-twitter-dark: #ffffff;
 }
 
 body {
@@ -58,15 +61,23 @@ body.dark a {
 body.dark .accent {
     color: var(--accent-dark);
 }
+
+.threads-twitter {
+    color: var(--threads-twitter-light);
+}
+
+body.dark .threads-twitter {
+    color: var(--threads-twitter-dark);
+}
 </style>
 <div style="text-align: center; margin-top: 30px;">
     <button id="followButton" style="padding: 10px 20px; background-color: var(--primary-light); color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Follow Me</button>
     
     <div id="socialLinks" style="display: none; margin-top: 15px;">
-        <a href="https://www.linkedin.com/in/jonnycosgrove/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #0A66C2;">LinkedIn</a>
-        <a href="https://www.threads.net/@jonnycosgrove_irl" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #000000;">Threads</a>
-        <a href="https://x.com/JonnyCosgrove" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #000000;">Twitter/X</a>
-        <a href="https://www.instagram.com/jonnycosgrove_irl/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #E4405F;">Instagram</a>
+        <a href="https://www.linkedin.com/in/jonnycosgrove/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">LinkedIn</a>
+        <a href="https://www.threads.net/@jonnycosgrove_irl" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;" class="threads-twitter">Threads</a>
+        <a href="https://x.com/JonnyCosgrove" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;" class="threads-twitter">Twitter/X</a>
+        <a href="https://www.instagram.com/jonnycosgrove_irl/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">Instagram</a>
     </div>
 </div>
 <script>
