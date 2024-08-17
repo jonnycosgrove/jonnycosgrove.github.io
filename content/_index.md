@@ -1,13 +1,12 @@
 ---
 title: " "
 ---
-Hi, I'm **Jonny Cosgrove**.
-Welcome to my digital realm. 
+I'm **Jonny Cosgrove**. Welcome to my digital realm.
 
 I'm an Irish tech entrepreneur on a mission to reshape the future and enjoy life along the way.
 
 ### Now
-🚀 <span style="color: #E54B2B;">[Launching Cleft](https://www.cleftnotes.com/) on the App Store in Fall 2024</span> (#E54B2B)
+🚀 {{< rawhtml >}}<a href="https://www.cleftnotes.com/" style="color: #E54B2B;">Launching Cleft</a>{{< /rawhtml >}} on the App Store in Fall 2024
 
 ### Recently completed
 📢 Authored the [Irish Immersive Tech Strategy](https://www.skillnetireland.ie/insights/irish-immersive-technology-strategy-for-growth), commissioned by Eirmersive and Skillnet Ireland - Ireland can be the Wakanda of VR!
@@ -17,8 +16,27 @@ I'm an Irish tech entrepreneur on a mission to reshape the future and enjoy life
 
 
 {{< rawhtml >}}
+<style>
+:root {
+    --button-bg-light: #3498db;
+    --button-bg-dark: #2980b9;
+    --button-text: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --button-bg: var(--button-bg-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --button-bg: var(--button-bg-light);
+    }
+}
+</style>
 <div style="text-align: center; margin-top: 30px;">
-    <button id="followButton" style="padding: 10px 20px; background-color: #000; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Follow Me</button>
+    <button id="followButton" style="padding: 10px 20px; background-color: var(--button-bg); color: var(--button-text); border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Follow Me</button>
     
     <div id="socialLinks" style="display: none; margin-top: 15px;">
         <a href="https://www.linkedin.com/in/jonnycosgrove/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #0077b5;">LinkedIn</a>
@@ -49,6 +67,5 @@ document.addEventListener('DOMContentLoaded', function() {
         followButton.textContent = 'Hide Links';
     }
 });
-</script>
 </script>
 {{< /rawhtml >}}
