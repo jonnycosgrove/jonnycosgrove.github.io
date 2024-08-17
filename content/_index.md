@@ -27,7 +27,6 @@ I'm an Irish tech entrepreneur on a mission to reshape the future and enjoy life
         <a href="https://www.instagram.com/jonnycosgrove_irl/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; color: #E1306C;">Instagram</a>
     </div>
 </div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const followButton = document.getElementById('followButton');
@@ -42,6 +41,14 @@ document.addEventListener('DOMContentLoaded', function() {
             followButton.textContent = 'Follow Me';
         }
     });
+
+    // Initialize button state
+    if (socialLinks.style.display === 'none') {
+        followButton.textContent = 'Follow Me';
+    } else {
+        followButton.textContent = 'Hide Links';
+    }
 });
+</script>
 </script>
 {{< /rawhtml >}}
