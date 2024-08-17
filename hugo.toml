@@ -1,0 +1,11 @@
+baseURL = "https://jonnycosgrove.com/"
+languageCode = "en-us"
+title = "Jonny Cosgrove"
+theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  
