@@ -7,9 +7,7 @@ I'm an Irish tech entrepreneur on a mission to reshape the future and enjoy life
 
 ### Now
 🚀 {{< rawhtml >}}<a href="https://www.cleftnotes.com/" style="color: #E54B2B;">Launching Cleft</a>{{< /rawhtml >}} on the App Store in Fall 2024
-
-### Recently completed
-📢 Authored the [Irish Immersive Tech Strategy](https://www.skillnetireland.ie/insights/irish-immersive-technology-strategy-for-growth), commissioned by Eirmersive and Skillnet Ireland - Ireland can be the Wakanda of VR!
+📢 Published the [Irish Immersive Tech Strategy](https://www.skillnetireland.ie/insights/irish-immersive-technology-strategy-for-growth), commissioned by Eirmersive and Skillnet Ireland - Ireland can be the Wakanda of VR!
    
 ### Featured in
 [The Verge](https://www.theverge.com/24150467/delta-emulator-apple-app-voice-notes-ai-vergecast), [Forbes](https://www.forbes.com/sites/charliefink/2017/11/20/the-trillion-dollar-3d-telepresence-gold-mine/), [Gartner](https://www.gartner.com/en/articles/what-s-new-in-the-2023-gartner-hype-cycle-for-emerging-technologies), [The Sunday Times](https://www.thetimes.com/world/ireland-world/article/how-to-work-more-closely-in-a-remote-world-during-the-covid-19-outbreak-dkb0fbsqj), [Silicon Republic](https://www.siliconrepublic.com/start-ups/meetingroom-video-conferences-productivity-vr)
